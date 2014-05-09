@@ -1,78 +1,21 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640" />
+---
+layout: default
+title: Home
+---
 
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen"/>
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)"/>
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
 
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
-    <title>Synergis by synergis-ny</title>
-  </head>
-
-  <body>
-    <div class="shell">
-
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>Synergis</h1>
-            <h2>the GIS user group for Ithaca, NY</h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
-
-      <div id="no-downloads">
-        <span class="inner">
-        </span>
+{% for meeting in site.categories.meetings limit: 1  %}
+      <div class="alert alert-info">
+        <h4>Next Synergis meeting: <a style="color:black;" href={{ meeting.url }}>{{ meeting.title }}</a></h4>
       </div>
+{% endfor %}
 
+          <h2>Upcoming Events</h2>
+{% for event in site.categories.events limit: 2  %}
+          <div class="event">
+            <h4><a href={{ event.url }}>{{ event.title }}</a></h4>
+            <span class="date">{{ event.date | date_to_string }}</span>
+            <div class="entry">{{ event.excerpt }}</div>
+          </div>
+{% endfor %}
 
-      <span class="banner-fix"></span>
-
-
-      <section id="main_content">
-        <h1>
-<a name="friday-may-16-2014" class="anchor" href="#friday-may-16-2014"><span class="octicon octicon-link"></span></a>Friday, May 16, 2014</h1>
-
-<p>3-5pm at Mann Library's Stone Classroom, Cornell University<br>
-Optional mappy hour to follow</p>
-
-<p><strong>Emily Goldman and Boris Michev will talk about Census Data.</strong></p>
-
-<p>Census data, while imperfect, comprise the country's best source of population, demographic, economic, and housing data.  Census data is fundamentally spatial in format, as all Census data have geographic identifiers -- tying the data to a particular location.  For this reason, using a GIS to analyze Census data is like putting puzzle pieces together.</p>
-
-<p>This presentation will describe and critically evaluate some of the main resources available (most are free or have free versions) for viewing and analyzing the Census data you're interested in, in a GIS.  These include: American FactFinder, Social Explorer, National Historic GIS, and GeoLytics' Neighborhood Change Database.  Some of these programs enable us to track Census data changes over time in a GIS, as well--which may be of particular interest to historians. The presentation will take place in a computer lab so participants can work with these resources alongside the instruction.</p>
-
-<p>Emily Goldman is a PhD candidate in City and Regional Planning, Cornell University.<br>
-Boris Michev is the Map Librarian at Olin Library, Cornell University.</p>
-
-      </section>
-
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <p>Synergis is a group of GIS professionals, managers, researchers, and students from Ithaca, NY and the surrounding areas.  We hold almost-monthly meetings that are open to anyone interested in learning more about GIS and all things geospatial.</p>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </footer>
-
-    </div>
-
-    
-  </body>
-</html>
