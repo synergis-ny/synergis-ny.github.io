@@ -2,16 +2,8 @@
 layout: default
 ---
 
-<div class="meeting-list">
-    <ul>
-    {% for meeting in site.categories.meetings %}
-        <li><a {% if page.url == meeting.url %}class="active"{% endif %} href={{ meeting.url }}>{{ meeting.date | date: "%Y-%m-%d" }}</a></li>
-    {% endfor %}
-    </ul>
-</div>
-
 <div class="meeting">
-    <h2>Synergis Meeting</h2>
+    <h2>{{ page.title }}</h2>
     <div class="when"><b>When:</b> {{ page.date }}, {{ page.time }}</div>
     <div class="where"><b>Where:</b> <a href='https://www.google.com/maps/place/{{ page.address }}'>{{ page.location }}</a></div>
     <div class="notes">{{ page.notes }}</div>
