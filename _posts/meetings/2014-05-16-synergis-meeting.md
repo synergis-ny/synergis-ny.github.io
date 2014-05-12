@@ -1,7 +1,7 @@
 ---
 layout: meeting
 category: meetings
-title: May 16, 2014 meeting - Census Data
+title: May 16, 2014 - Census Data
 location: Mann Library Stone Classroom (Cornell University)
 address: Mann Library, Cornell University
 time: 3:00pm to 5:00pm
