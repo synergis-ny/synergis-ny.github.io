@@ -13,7 +13,7 @@ layout: default
 <div class="meeting">
     <h2>Synergis Meeting</h2>
     <div class="when">When: {{ page.date }}, {{ page.time }}</div>
-    <div class="where">Where: {{ page.location }} (<a href='https://www.google.com/maps/place/{{ page.address }}'>map</a></div>
+    <div class="where">Where: <a href='https://www.google.com/maps/place/{{ page.address }}'>{{ page.location }}</a></div>
     <div class="notes">{{ page.notes }}</div>
     <div class="entry">{{ content }}</div>
 </div>
