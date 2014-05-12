@@ -30,6 +30,7 @@ hr { margin:1em 0 }
 img { border:0 }
 input,textarea,select { font-family:Arial, sans-serif ; font-size:100% ; margin:0 ; border:2px inset }
 input,textarea { padding:1px 2px }
+p { margin:0.5em 0 }
 pre { margin:0.5em ; padding:0.5em ; border:1px solid #ddd ; background:#f8f8ee ; border-radius:5px }
 code { color:#840 ; font-size:85% }
 td, th { vertical-align:top }
@@ -47,3 +48,6 @@ header { padding:1em ; background:#008 ; color:#fff }
 footer { padding:1em ; background:#008 ; color:#fff }
 
 div#main { padding:1em ; background:#fff ; color:#000 }
+
+div.notes { font-style:italic }
+div.meeting-list { float:right }
