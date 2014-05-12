@@ -19,7 +19,7 @@ blockquote blockquote blockquote { border:1px solid #cdc ; background:#ded }
 code { font-family:"Lucida Console", monospace }
 em, i { font-style:italic }
 strong, b { font-weight:bold }
-h1,h2,h3,h4,h5,h6 { color:#000 ; font-weight:bold ; padding:0 ; margin:1em 0 0.5em }
+h1,h2,h3,h4,h5,h6 { font-weight:bold ; padding:0 ; margin:1em 0 0.5em }
 h1 { font-size:125% }
 h2 { font-size:115% }
 h3 { font-size:110% }
@@ -46,4 +46,4 @@ dd { margin:0 0 1em 1em }
 header { padding:1em ; background:#008 ; color:#fff }
 footer { padding:1em ; background:#008 ; color:#fff }
 
-div.main { padding:1em ; background:#fff ; color:#000 }
+div#main { padding:1em ; background:#fff ; color:#000 }
