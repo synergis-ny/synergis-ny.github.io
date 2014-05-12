@@ -1,11 +1,11 @@
 ---
 layout: meeting
-category: meetings
-title: April 30, 2014 meeting: Python Scripting for GIS
+title: April 30, 2014 meeting - Python Scripting for GIS
 location: Mann Library room 102 (Cornell University)
 address: Mann Library, Cornell University
 time: 12:00pm to 2:00pm
 notes: Mann Library room 102 is just off the lobby of Mann Library.
+category: meetings
 ---
 
 As usual, we’ll begin with a half hour (or so) with an informal meet-and-greet — a great chance to catch up with your GIS colleagues, both those you know and those you don’t (yet).
