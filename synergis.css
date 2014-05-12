@@ -45,6 +45,10 @@ dd { margin:0 0 1em 1em }
 /* Synergis */
 
 header { padding:1em ; background:#008 ; color:#fff }
+header ul.menu li { display:inline ; padding:0.5em 3em ; background:#448 ; color:#fff }
+header ul.menu li a { color:#fff }
+header ul.menu li a:hover { background:#66a }
+
 footer { padding:1em ; background:#008 ; color:#fff }
 
 div#main { padding:1em ; background:#fff ; color:#000 }

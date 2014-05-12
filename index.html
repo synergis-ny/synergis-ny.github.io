@@ -5,16 +5,8 @@ title: Home
 
 {% for meeting in site.categories.meetings limit: 1  %}
     <div class="alert">
-        Next Synergis meeting: <a style="color:black;" href={{ meeting.url }}>{{ meeting.title }}</a></h4>
-    </div>
-{% endfor %}
-
-<h2>Upcoming Meetings</h2>
-{% for meeting in site.categories.meetings limit: 2  %}
-    <div class="event">
-        <h4><a href={{ meeting.url }}>{{ meeting.title }}</a></h4>
-        <span class="date">{{ meeting.date }}</span>
-        <div class="entry">{{ meeting.excerpt }}</div>
+        Next Synergis meeting: <a href={{ meeting.url }}>{{ meeting.title }}</a>
+        {{ meeting.content }}
     </div>
 {% endfor %}
 
