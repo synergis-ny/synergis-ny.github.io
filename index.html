@@ -3,19 +3,18 @@ layout: default
 title: Home
 ---
 
-
 {% for meeting in site.categories.meetings limit: 1  %}
-      <div class="alert alert-info">
-        <h4>Next Synergis meeting: <a style="color:black;" href={{ meeting.url }}>{{ meeting.title }}</a></h4>
-      </div>
+    <div class="alert">
+        Next Synergis meeting: <a style="color:black;" href={{ meeting.url }}>{{ meeting.title }}</a></h4>
+    </div>
 {% endfor %}
 
-          <h2>Upcoming Events</h2>
-{% for event in site.categories.events limit: 2  %}
-          <div class="event">
-            <h4><a href={{ event.url }}>{{ event.title }}</a></h4>
-            <span class="date">{{ event.date | date_to_string }}</span>
-            <div class="entry">{{ event.excerpt }}</div>
-          </div>
+<h2>Upcoming Meetings</h2>
+{% for event in site.categories.meetings limit: 2  %}
+    <div class="event">
+        <h4><a href={{ event.url }}>{{ event.title }}</a></h4>
+        <span class="date">{{ event.date }}</span>
+        <div class="entry">{{ event.excerpt }}</div>
+    </div>
 {% endfor %}
 
