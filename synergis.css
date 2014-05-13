@@ -11,7 +11,7 @@ table { border-collapse:collapse ; border-spacing:0 }
 /* basic stuff */
 a { color:#00c ; text-decoration:none }
 a:hover, a:focus { text-decoration:underline }
-a:visited { color:#60a }
+a:visited { color:#00c }
 body { font-family:Arial, sans-serif }
 blockquote { margin:0.5 0 ; padding:0.5em ; border:1px solid #ddd ; background:#eee ; border-radius:5px }
 blockquote blockquote { border:1px solid #ccd ; background:#dde }
@@ -46,14 +46,18 @@ dd { margin:0 0 1em 1em }
 
 h1 a { font-size:200% ; color:#fff ! important }
 
-header { padding:1em ; background:#008 ; color:#fff }
+header { padding:1em ; background:#321 ; color:#fff }
 
 div#main { position:relative ; min-height:400px }
 div#content { padding:0.5em 1% ; background:#fff ; color:#000 ; width:63% }
-aside { position:absolute ; right:0 ; top:0 ; width:30% ; margin:1em 1% ; padding:0.5em 2% ; background:#ccf ; border-radius:1em ; background:#ccf}
+aside { position:absolute ; right:0 ; top:0 ;
+  width:30% ; margin:1em 1% ; padding:0.5em 2% ;
+  border-radius:1em ; background:#cba
+}
 aside div.recent li { margin-top:0.5em }
+aside a { font-weight:bold ; color:#440 }
 
-footer { padding:1em 2% ; background:#008 ; color:#fff ; width:96% }
+footer { padding:1em 2% ; background:#321 ; color:#fff ; width:96% }
 
 div.notes { font-style:italic }
 
