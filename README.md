@@ -1,4 +1,6 @@
 synergis-ny.github.io
 =====================
 
-Synergis public website
+Synergis test website using github pages.
+
+
