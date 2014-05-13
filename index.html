@@ -3,13 +3,4 @@ layout: default
 title: Home
 ---
 
-{% for meeting in site.categories.meetings limit: 1  %}
-    <div class="alert">
-        <h1><a href={{ meeting.url }}>{{ meeting.title }}</a></h1>
-        <div class="when"><b>When:</b> {{ meeting.date }}, {{ meeting.time }}</div>
-        <div class="where"><b>Where:</b> <a href='https://www.google.com/maps/place/{{ meeting.address }}'>{{ meeting.location }}</a></div>
-        <div class="notes">{{ meeting.notes }}</div>
-        <div class="entry">{{ meeting.content }}</div>
-    </div>
-{% endfor %}
-
+<img src='/images/TompkinsAsmtGrid.png'>
