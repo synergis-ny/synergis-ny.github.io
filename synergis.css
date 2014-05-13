@@ -55,7 +55,7 @@ aside { position:absolute ; right:0 ; top:0 ;
   border-radius:1em ; background:#cba
 }
 aside div.recent li { margin-top:0.5em }
-aside a { font-weight:bold ; color:#440 }
+aside a { font-weight:bold ; color:#440 ! important }
 
 footer { padding:1em 2% ; background:#321 ; color:#fff ; width:96% }
 
