@@ -52,7 +52,7 @@ div#main { position:relative }
 div#content { padding:1em 1% ; background:#fff ; color:#000 ; width:66% }
 aside { position:absolute ; right:0 ; top:0 ; width:30% ; padding:1em 1% }
 
-footer { width:66% ; padding:1em 1% ; background:#008 ; color:#fff }
+footer { padding:1em 1% ; background:#008 ; color:#fff }
 
 div.notes { font-style:italic }
 
