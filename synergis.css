@@ -30,7 +30,7 @@ hr { margin:1em 0 }
 img { border:0 }
 input,textarea,select { font-family:Arial, sans-serif ; font-size:100% ; margin:0 ; border:2px inset }
 input,textarea { padding:1px 2px }
-p { margin:0.5em 0 }
+p { margin:1em 0 }
 pre { margin:0.5em ; padding:0.5em ; border:1px solid #ddd ; background:#f8f8ee ; border-radius:5px }
 code { color:#840 ; font-size:85% }
 td, th { vertical-align:top }
@@ -51,6 +51,7 @@ header { padding:1em ; background:#008 ; color:#fff }
 div#main { position:relative ; min-height:400px }
 div#content { padding:0.5em 1% ; background:#fff ; color:#000 ; width:63% }
 aside { position:absolute ; right:0 ; top:0 ; width:30% ; margin:1em 1% ; padding:0.5em 2% ; background:#ccf ; border-radius:1em ; background:#ccf}
+aside div.recent li { margin-top:0.5em }
 
 footer { padding:1em 2% ; background:#008 ; color:#fff ; width:96% }
 
