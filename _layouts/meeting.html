@@ -4,7 +4,7 @@ layout: default
 
 <div class="meeting">
     <h2>{{ page.title }}</h2>
-    <div class="when"><b>When:</b> {{ page.date }}, {{ page.time }}</div>
+    <div class="when"><b>When:</b> {{ page.date | '%B %d, %Y' }}, {{ page.time }}</div>
     <div class="where"><b>Where:</b> <a href='https://www.google.com/maps/place/{{ page.address }}'>{{ page.location }}</a></div>
     <div class="notes">{{ page.notes }}</div>
     <div class="entry">{{ content }}</div>
