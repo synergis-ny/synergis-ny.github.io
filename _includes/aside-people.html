@@ -1,0 +1,8 @@
+<aside class="people">
+    <ul>
+    {% for person in site.categories.people %}
+        <li><a href={{ person.url }}>{{ person.title }}</a></li>
+    {% endfor %}
+    </ul>
+</aside>
+

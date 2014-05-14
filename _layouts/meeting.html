@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% include aside-events.html %}
+
 <div class="meeting">
     <h2>{{ page.title }}</h2>
     <div class="when"><b>When:</b> {{ page.date | date: '%B %d, %Y' }}, {{ page.time }}</div>
