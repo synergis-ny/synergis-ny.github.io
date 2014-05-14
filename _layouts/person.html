@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="person">
+    <h2>{{ page.title }}</h2>
+
+    {% if page.image != null %}
+        <img src="{{ page.image }}">
+    {% endif %}
+    
+    <div class="entry">{{ content }}</div>
+</div>
+
