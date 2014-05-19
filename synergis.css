@@ -1,64 +1,94 @@
 /* reset */
-html, body, header, footer, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin:0 ; padding:0 ; border:0 ; font-size:100% ; font:inherit ; vertical-align:baseline }
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display:block }
-body { line-height:1 }
-ol, ul { list-style:none }
-blockquote, q { quotes:none }
-blockquote:before, blockquote:after, q:before, q:after { content:'' ; content:none }
-table { border-collapse:collapse ; border-spacing:0 }
+html, body, header, footer, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0 ; padding: 0 ; border: 0 ; font-size: 100% ; font: inherit ; vertical-align: baseline }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block }
+body { line-height: 1 }
+ol, ul { list-style: none }
+blockquote, q { quotes: none }
+blockquote: before, blockquote: after, q: before, q: after { content: '' ; content: none }
+table { border-collapse: collapse ; border-spacing: 0 }
 
 
 /* basic stuff */
-a { color:#00c ; text-decoration:none }
-a:hover, a:focus { text-decoration:underline }
-a:visited { color:#00c }
-body { font-family:Arial, sans-serif }
-blockquote { margin:0.5 0 ; padding:0.5em ; border:1px solid #ddd ; background:#eee ; border-radius:5px }
-blockquote blockquote { border:1px solid #ccd ; background:#dde }
-blockquote blockquote blockquote { border:1px solid #cdc ; background:#ded }
-code { font-family:"Lucida Console", monospace }
-em, i { font-style:italic }
-strong, b { font-weight:bold }
-h1,h2,h3,h4,h5,h6 { font-weight:bold ; padding:0 ; margin:1em 0 0.5em }
-h1 { font-size:125% }
-h2 { font-size:115% }
-h3 { font-size:110% }
-h4 { font-size:108% }
-h5 { font-size:105% }
-h6 { font-size:100% }
-hr { margin:1em 0 }
-img { border:0 }
-input,textarea,select { font-family:Arial, sans-serif ; font-size:100% ; margin:0 ; border:2px inset }
-input,textarea { padding:1px 2px }
-p { margin:1em 0 }
-pre { margin:0.5em ; padding:0.5em ; border:1px solid #ddd ; background:#f8f8ee ; border-radius:5px }
-code { color:#840 ; font-size:85% }
-td, th { vertical-align:top }
-th { font-weight:bold ; text-align:right }
-ul { margin:0 0 1em ; list-style-type:disc ; padding:0 0 0 1em }
-ol { margin:0 0 1em ; list-style-type:decimal ; padding:0 0 0 1em }
-dl { margin:0 0 1em ; list-style-type:disc ; padding:0 0 0 1em }
-dd { margin:0 0 1em 1em }
+a { color: #00c ; text-decoration: none }
+a: hover, a: focus { text-decoration: underline }
+a: visited { color: #00c }
+body { font-family: Arial, sans-serif }
+blockquote { margin: 0.5 0 ; padding: 0.5em ; border: 1px solid #ddd ; background: #eee ; border-radius: 5px }
+blockquote blockquote { border: 1px solid #ccd ; background: #dde }
+blockquote blockquote blockquote { border: 1px solid #cdc ; background: #ded }
+code { font-family: "Lucida Console", monospace }
+em, i { font-style: italic }
+strong, b { font-weight: bold }
+h1,h2,h3,h4,h5,h6 { font-weight: bold ; padding: 0 ; margin: 1em 0 0.5em }
+h1 { font-size: 125% }
+h2 { font-size: 115% }
+h3 { font-size: 110% }
+h4 { font-size: 108% }
+h5 { font-size: 105% }
+h6 { font-size: 100% }
+hr { margin: 1em 0 }
+img { border: 0 }
+input,textarea,select { font-family: Arial, sans-serif ; font-size: 100% ; margin: 0 ; border: 2px inset }
+input,textarea { padding: 1px 2px }
+p { margin: 1em 0 }
+pre { margin: 0.5em ; padding: 0.5em ; border: 1px solid #ddd ; background: #f8f8ee ; border-radius: 5px }
+code { color: #840 ; font-size: 85% }
+td, th { vertical-align: top }
+th { font-weight: bold ; text-align: right }
+ul { margin: 0 0 1em ; list-style-type: disc ; padding: 0 0 0 1em }
+ol { margin: 0 0 1em ; list-style-type: decimal ; padding: 0 0 0 1em }
+dl { margin: 0 0 1em ; list-style-type: disc ; padding: 0 0 0 1em }
+dd { margin: 0 0 1em 1em }
 
 
 
 /* Synergis */
 
-h1 a { font-size:200% ; color:#fff ! important }
-
-header { padding:1em ; background:#321 ; color:#fff }
-
-div#main { position:relative ; min-height:400px }
-
-div#main > div { padding:0.5em 1% ; background:#fff ; color:#000 ; width:63% }
-
-aside { float:right ; width:30% ; margin:1em 1% ; padding:0.5em 2% ;
-  border-radius:1em ; background:#cba
+a, a:visited {
+    color:#362;
 }
-aside.events li { margin-top:0.5em }
-aside a { font-weight:bold ; color:#440 ! important }
 
-footer { padding:1em 2% ; background:#321 ; color:#fff ; width:96% }
+h1 a {
+    font-size: 200%;
+    color: #fff ! important;
+}
 
-div.notes { font-style:italic }
+header, footer {
+    padding: 1em;
+    background: #241;
+    color: #fff;
+}
+
+div#main {
+    position: relative;
+    min-height: 400px;
+    background-image: url('/images/IthacaHillshade1024x784.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+div#main > div {
+    padding: 0.5em 1%;
+    background: #fff;
+    color: #000;
+    width: 63%;
+}
+
+aside {
+    float: right;
+    width: 30%;
+    margin: 1em 1%;
+    padding: 0.5em 2%;
+    border-radius: 1em;
+    background: #cba;
+}
+aside.events li {
+    margin-top: 0.5em;
+}
+aside a {
+    font-weight: bold;
+}
+div.notes {
+    font-style: italic
+}
 
