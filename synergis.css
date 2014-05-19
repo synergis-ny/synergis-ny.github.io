@@ -10,7 +10,7 @@ table { border-collapse: collapse ; border-spacing: 0 }
 
 /* basic stuff */
 a { text-decoration: none }
-a: hover, a: focus { text-decoration: underline }
+a:hover, a:focus { text-decoration: underline }
 body { font-family: Arial, sans-serif }
 blockquote { margin: 0.5 0 ; padding: 0.5em ; border: 1px solid #ddd ; background: #eee ; border-radius: 5px }
 blockquote blockquote { border: 1px solid #ccd ; background: #dde }
@@ -43,6 +43,11 @@ dd { margin: 0 0 1em 1em }
 
 /* Synergis */
 
+html {
+    background: url('images/IthacaHillshade1024x784.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
 a, a:visited {
     color: #362;
     font-weight: bold;
@@ -63,18 +68,15 @@ header, footer {
 div#main {
     position: relative;
     min-height: 400px;
-    background-image: url('/images/IthacaHillshade1024x784.jpg');
-    background-size: cover;
-    background-position: center center;
 }
 
 div#main > div {
     float:left;
-    width: 60%;
+    width: 62%;
     margin:1em 1%;
     padding: 0.5em 1%;
     border-radius: 1em;
-    background: #fff;
+    background: #eec;
 }
 
 aside {
