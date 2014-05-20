@@ -96,7 +96,7 @@ nav a:hover {
 }
 
 article {
-    float: left;
+    float: right;
     width: 62%;
     margin: 12px 1%;
     padding: 0.5em 1%;
@@ -105,7 +105,7 @@ article {
 }
 
 aside {
-    float: right;
+    float: left;
     width: 30%;
     margin: 12px 1%;
     padding: 0.5em 1%;
