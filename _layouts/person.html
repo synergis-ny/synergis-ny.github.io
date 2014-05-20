@@ -4,13 +4,13 @@ layout: default
 
 {% include aside-people.html %}
 
-<div class="person">
+<article class='person'>
     <h2>{{ page.title }}</h2>
 
     {% if page.image != null %}
-        <img src="{{ page.image }}">
+        <img src='{{ page.image }}'>
     {% endif %}
     
     {{ content }}
-</div>
+</article>
 
