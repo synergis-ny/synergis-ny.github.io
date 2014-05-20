@@ -41,11 +41,6 @@ dd { margin: 0 0 1em 1em }
 
 /* Synergis */
 
-html {
-    xbackground: url('images/IthacaHillshade1024x784.jpg') no-repeat center center fixed;
-    xbackground-size: cover;
-}
-
 a {
     text-decoration: none;
     font-weight: bold;
@@ -101,7 +96,7 @@ nav a:hover {
 }
 
 article {
-    float:left;
+    float: left;
     width: 62%;
     margin: 12px 1%;
     padding: 0.5em 1%;
@@ -132,20 +127,8 @@ footer a {
     color: #fff;
 }
 
-
-
-
-div.notes {
-    font-style: italic
-}
-
-div.person img {
-    float:left;
-    margin:0 1em 1em 0;
-    max-height:240px;
-}
-
-div.blank {
-    background: #fff;
-    xheight: 100%;
+.person img {
+    float: left;
+    margin: 0 1em 1em 0;
+    max-height: 240px;
 }
