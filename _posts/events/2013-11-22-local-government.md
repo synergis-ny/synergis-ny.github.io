@@ -27,6 +27,6 @@ For a preview of some of the web maps on your own, go to: http://geo.tompkins-co
 
 5 minutes per topic -- Guaranteed!
 
-http://geo.tompkins-co.org/gisday/
+<http://geo.tompkins-co.org/gisday/>
 
 This event is hosted by the Tompkins County and City of Ithaca GIS Programs as part of the Tompkins-Ithaca GIS Initiative, a long standing intergovernmental collaboration between City and County to deliver geographic data in a cost effective easily accessible form to staff, officials and the community.
