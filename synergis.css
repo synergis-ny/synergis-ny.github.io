@@ -32,10 +32,10 @@ pre { margin: 0.5em ; padding: 0.5em ; border: 1px solid #ddd ; background: #f8f
 code { color: #840 ; font-size: 85% }
 td, th { vertical-align: top }
 th { font-weight: bold ; text-align: right }
-ul { margin: 0 0 1em ; list-style-type: disc ; padding: 0 0 0 1em }
-ol { margin: 0 0 1em ; list-style-type: decimal ; padding: 0 0 0 1em }
-dl { margin: 0 0 1em ; list-style-type: disc ; padding: 0 0 0 1em }
-dd { margin: 0 0 1em 1em }
+ul { margin: 0 0 1em 1em ; list-style-type: disc ; padding: 0 0 0 1em }
+ol { margin: 0 0 1em 1em ; list-style-type: decimal ; padding: 0 0 0 1em }
+dl { margin: 0 0 1em 1em ; list-style-type: disc ; padding: 0 0 0 1em }
+dd { margin: 0 0 1em 2em }
 
 
 
