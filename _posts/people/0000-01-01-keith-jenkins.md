@@ -3,8 +3,8 @@ layout: person
 title: Keith Jenkins
 category: people
 
-image: /images/people/keith_jenkins.jpg
-permalink: /people/keith_jenkins
+image: /images/people/keith-jenkins.jpg
+permalink: /people/keith-jenkins
 excerpt: GIS Librarian at Cornell
 ---
 
