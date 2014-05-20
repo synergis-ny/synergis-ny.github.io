@@ -8,9 +8,7 @@ blockquote: before, blockquote: after, q: before, q: after { content: '' ; conte
 table { border-collapse: collapse ; border-spacing: 0 }
 
 
-/* basic stuff */
-a { text-decoration: none }
-a:hover, a:focus { text-decoration: underline }
+/* basic styles */
 body { font-family: Arial, sans-serif }
 blockquote { margin: 0.5 0 ; padding: 0.5em ; border: 1px solid #ddd ; background: #eee ; border-radius: 5px }
 blockquote blockquote { border: 1px solid #ccd ; background: #dde }
@@ -44,39 +42,101 @@ dd { margin: 0 0 1em 1em }
 /* Synergis */
 
 html {
-    background: url('images/IthacaHillshade1024x784.jpg') no-repeat center center fixed;
-    background-size: cover;
+    xbackground: url('images/IthacaHillshade1024x784.jpg') no-repeat center center fixed;
+    xbackground-size: cover;
 }
 
-a, a:visited {
-    color: #362;
+a {
+    text-decoration: none;
     font-weight: bold;
 }
 
-h1 a {
-    font-size: 200%;
-    color: #fff ! important;
+a:hover,
+a:focus {
+    text-decoration: underline;
 }
 
-header, footer {
+header {
     padding: 1em;
-    background: #241;
+    background-color: #241;
     color: #fff;
-    clear: both;
 }
 
-div#main {
+header a {
+    color: #fff;
+    font-size: 200%;
+    margin-right: 0.5em;
+}
+
+nav {
+    background: #120;
+    padding: 12px 0;
+}
+
+nav a {
+    color: #fff;
+    padding: 8px 1em;
+}
+
+nav a:hover {
+    background: #352;
+    text-decoration: none;
+}
+
+#main {
     position: relative;
+    background: url(images/IthacaHillshade1024x784.jpg) no-repeat center center fixed;
+    background-size: cover;
     min-height: 400px;
 }
 
-div#main > div {
+#main a,
+#main a:visited {
+    color: #362;
+}
+#main hr {
+    clear: both;
+    margin: 0;
+    opacity: 0;
+}
+
+article {
     float:left;
     width: 62%;
-    margin:1em 1%;
+    margin: 12px 1%;
     padding: 0.5em 1%;
     border-radius: 1em;
     background: #eec;
+}
+
+aside {
+    float: right;
+    width: 30%;
+    margin: 12px 1%;
+    padding: 0.5em 1%;
+    border-radius: 1em;
+    background: #cba;
+}
+aside li {
+    margin: 0.5em;
+}
+
+footer {
+    clear: both;
+    padding: 1em;
+    background-color: #241;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+}
+
+
+
+
+div.notes {
+    font-style: italic
 }
 
 div.person img {
@@ -85,18 +145,7 @@ div.person img {
     max-height:240px;
 }
 
-aside {
-    float: right;
-    width: 30%;
-    margin: 1em 1%;
-    padding: 0.5em 1%;
-    border-radius: 1em;
-    background: #cba;
+div.blank {
+    background: #fff;
+    xheight: 100%;
 }
-aside li {
-    margin: 0.5em;
-}
-div.notes {
-    font-style: italic
-}
-
