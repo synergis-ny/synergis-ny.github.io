@@ -1,7 +1,8 @@
 <aside class="people">
     <h2>People</h2>
     <ul>
-    {% for person in site.categories.people %}
+    {% assign sorted_people = site.categories.people | sort:"title" %}
+    {% for person in sorted_people %}
         <li><a href={{ person.url }}>{{ person.title }}</a></li>
     {% endfor %}
     </ul>
