@@ -52,7 +52,7 @@ a:focus {
 }
 
 header {
-    padding: 1em;
+    padding: 0.5em 0.5em 0;
     background-color: #241;
     color: #fff;
 }
