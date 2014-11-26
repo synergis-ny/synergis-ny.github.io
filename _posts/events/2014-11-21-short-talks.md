@@ -19,12 +19,12 @@ There are SynerGIS members using GIS to do all sorts of cool things.  Come out
 and share your cool things with the most appreciative audience available:
 your fellow GIS users.
 
-**Ben Coakley, Southern Cayuga Lake Intermunicipal Water Commission**  
-**Susan Nixson, City of Ithaca**  
-**Jan Vink, Cornell University, Program on Applied Demographics**
-**Eliza Czolowski, GZA GeoEnvironmental, Inc.**
-**Keith Jenkins, Cornell University, Mann Library**
-**Nick Hollingshead, Cornell University, College of Veterinary Medicine**
-**Frank Popowitch, Cornell University, Campus Planning**
+* Ben Coakley, Southern Cayuga Lake Intermunicipal Water Commission
+* Susan Nixson, City of Ithaca
+* Jan Vink, Cornell University, Program on Applied Demographics
+* Eliza Czolowski, GZA GeoEnvironmental, Inc.
+* Keith Jenkins, Cornell University, Mann Library
+* Nick Hollingshead, Cornell University, College of Veterinary Medicine
+* Frank Popowitch, Cornell University, Campus Planning
 
 
