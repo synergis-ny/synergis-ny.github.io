@@ -1,6 +1,6 @@
 ---
 layout: event
-title: March 28, 2014 - Mappy Hour
+title: Mar 28, 2014 - Mappy Hour
 location: Chapter House
 address: Chapter House, Ithaca NY
 time: 5:00pm

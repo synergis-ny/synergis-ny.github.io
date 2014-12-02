@@ -1,6 +1,6 @@
 ---
 layout: event
-title: December 13, 2013 - Mappy Hour
+title: Dec 13, 2013 - Mappy Hour
 location: Chapter House
 address: Chapter House, Ithaca NY
 time: 5:00pm

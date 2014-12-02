@@ -1,6 +1,6 @@
 ---
 layout: event
-title: February 26, 2014 - OpenStreetMap
+title: Feb 26, 2014 - OpenStreetMap
 location: Mann Library Stone Classroom (Cornell University)
 address: Mann Library, Cornell University
 time: 12:00pm to 2:30pm

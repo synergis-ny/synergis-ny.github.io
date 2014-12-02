@@ -1,6 +1,6 @@
 ---
 layout: event
-title: January 28, 2014 - Web Mapping and Crowd Sourcing
+title: Jan 28, 2014 - Web Mapping and Crowd Sourcing
 location: Mann Library Room 102 (Cornell University)
 address: Mann Library, Cornell University
 time: 12:00pm to 1:30pm

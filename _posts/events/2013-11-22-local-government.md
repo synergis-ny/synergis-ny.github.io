@@ -1,6 +1,6 @@
 ---
 layout: event
-title: November 22, 2013 - Local Government
+title: Nov 22, 2013 - Local Government
 location: Tompkins County Public Library, Borg Warner Room
 address: Tompkins County Public Library, Ithaca
 time: 1:00pm to 4:30pm

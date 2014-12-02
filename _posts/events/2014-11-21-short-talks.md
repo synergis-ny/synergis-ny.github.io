@@ -1,6 +1,6 @@
 ---
 layout: event
-title: November 21, 2014 - Synergis talks
+title: Nov 21, 2014 - Synergis talks
 location: Mann Library Room 160 (Cornell University)
 address: Mann Library, Cornell University
 time: 12:00pm to 2:00pm
