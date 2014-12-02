@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Aug 7, 2014 - Census Data
+title: Aug 7, 2014 - The Latest in GPS
 location: Stewart Park
 address: Stewart Park, Ithaca, NY
 time: 2:30pm
