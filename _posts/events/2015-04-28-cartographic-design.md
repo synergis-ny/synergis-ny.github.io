@@ -19,4 +19,4 @@ the ugly).
 # Schedule
 
 12:00pm The Gathering - mingle, network, catch up with colleagues, etc.  
-12:30pm Presentation
+12:30pm The Presentation
