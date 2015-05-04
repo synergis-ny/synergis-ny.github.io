@@ -21,9 +21,7 @@ timezone: America/New_York
 
 #### Under the Hood Stuff #####
 
-# Use rdiscount as the markdown engine because it generates html5 compliant code for stuff like footnotes
-# If you use maroku (default engine) some of your generated pages may not validate or lint as html5
-# If you don't have it install it via gem install rdiscount
+# Using kramdown as the markdown engine, to support PHP Markdown Extra and other extensions
 markdown: kramdown
 
 # Continue compiling even if there are errors. Keep it true, unless troubleshooting.
