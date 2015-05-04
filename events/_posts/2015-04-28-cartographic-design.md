@@ -16,7 +16,7 @@ Geography at Penn State, will speak to us about the principles of cartographic
 design, with a special focus on the typography of maps (the good, the bad, and
 the ugly).
 
-[view slides](/events/attachments/2015-04-28-guidero-slides.pdf)
+[View slides from Elaine's presentation](/events/attachments/2015-04-28-guidero-slides.pdf)
 
 # Schedule
 
