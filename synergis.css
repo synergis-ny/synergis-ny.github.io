@@ -44,7 +44,7 @@ dd { margin: 0 0 1em 2em }
 a {
   text-decoration: none;
   font-weight: bold;
-  color: #226622;
+  color: #262;
 }
 
 a:hover,
@@ -53,31 +53,29 @@ a:focus {
 }
 
 body {
-  background-color: #e8e8e8;
+  background-color: #363;
   background: url(images/greenhills.jpg) no-repeat center center fixed;
   background-size:cover;
-  margin:0 ;
-  padding:0 ;
 }
 
 header {
   padding: 0.5em 0.5em 0;
-  background-color:#226622;
+  background-color:#262;
   color: #fff;
 }
 
 nav {
-  background: #004400;
+  background: #040;
   padding: 12px 0;
 }
 
 nav a {
-  color: #ffffff;
+  color: #fff;
   padding: 8px 1em;
 }
 
 nav a:hover {
-  background: #226622;
+  background: #262;
   text-decoration: none;
 }
 
@@ -99,7 +97,7 @@ article {
   margin: 12px 1%;
   padding: 0 1% 2em;
   border-radius: 1em;
-  background: #ffffff;
+  background: #fff;
 }
 
 aside {
@@ -114,22 +112,22 @@ aside {
 }
 aside li {
   margin: 0.4em;
-  color: #ffffff;
+  color: #fff;
 }
 aside a {
-  color: #ffffff;
+  color: #fff;
 }
 
 footer {
   clear: both;
   text-align: center;
   padding: 1em;
-  background-color: #004400;
-  color: #ffffff;
+  background-color: #040;
+  color: #fff;
 }
 
 footer a {
-  color: #88cc88;
+  color: #8c8;
 }
 
 .person img {
