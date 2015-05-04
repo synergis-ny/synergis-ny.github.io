@@ -1,6 +1,5 @@
 synergis-ny.github.io
 =====================
 
-Synergis test website using github pages.
-
+Synergis website source.  See the actual website at http://synergis-ny-github.io/
 
