@@ -95,9 +95,9 @@ article {
   float: right;
   width: 62%;
   margin: 12px 1%;
-  padding: 0 1% 2em;
-  border-radius: 1em;
-  background: #fff;
+  padding: 0 1%;
+  border-radius: 4px;
+  background: #eee;
 }
 
 aside {
@@ -105,7 +105,7 @@ aside {
   width: 30%;
   margin: 12px 1%;
   padding: 0 1%;
-  border-radius: 1em;
+  border-radius: 4px;
   background: rgba(34,102,34,0.8);
   color: #ffffff;
   font-size: 86%;

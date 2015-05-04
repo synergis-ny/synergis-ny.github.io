@@ -5,3 +5,14 @@ permalink: /events/
 ---
 
 {% include aside-events.html %}
+
+{% for event in site.categories.events %}
+  <article class='event'>
+    <h2><a href={{ event.url }}>{{ event.title }}</a></h2>
+    <div class='when'><b>When:</b> {{ event.time }}</div>
+    <div class='where'><b>Where:</b> <a href='https://www.google.com/maps/place/{{ event.address }}'>{{ event.location }}</a></div>
+    <div class='notes'>{{ event.notes }}</div>
+    <div class='entry'>{{ event.content }}</div>
+  </article>
+{% endfor %}
+
