@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Nov 21, 2014 - Synergis talks
+title: Nov 21, 2014 - Lightning talks
 location: Mann Library Room 160 (Cornell University)
 address: Mann Library, Cornell University
 time: 12:00pm to 2:00pm
@@ -8,7 +8,7 @@ notes: Mann 160 is in the far back left corner of the first floor
 category: events
 ---
 
-# Synergis Talks
+# Lightning Talks
 
 For our November meeting, we'd like to give SynerGIS members an opportunity to
 introduce themselves and talk about how they use GIS.  Please join us, and be
