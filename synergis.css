@@ -65,7 +65,7 @@ header {
 }
 
 nav {
-  background: #040;
+  background: #884;
   padding: 12px 0;
 }
 
@@ -110,13 +110,12 @@ aside {
   margin: 12px 1%;
   padding: 0 1%;
   border-radius: 4px;
-  background: rgba(34,102,34,0.8);
-  color: #ffffff;
+  background: #884;
+  color: #fff;
   font-size: 86%;
 }
 aside li {
   margin: 0.4em;
-  color: #fff;
 }
 aside a {
   color: #fff;
