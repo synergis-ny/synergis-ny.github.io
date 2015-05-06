@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Oct 18, 2015 - Mappy Hour
+title: Oct 18, 2013 - Mappy Hour
 location: Chapter House
 address: Chapter House, Ithaca NY
 time: 5:00pm
