@@ -1,6 +1,6 @@
 ---
 layout: event
-title: Feb 26, 2015 - Mappy Hour
+title: Feb 26, 2016 - Mappy Hour
 location: The Westy
 address:  516 West State St, Ithaca NY
 time: 5:00pm
