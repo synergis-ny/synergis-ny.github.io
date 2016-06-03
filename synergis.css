@@ -10,7 +10,7 @@ table { border-collapse: collapse ; border-spacing: 0 }
 
 /* basic styles */
 body { font-family: Arial, sans-serif }
-blockquote { margin: 0.5 0 ; padding: 0.5em ; border: 1px solid #ddd ; background: #eee ; border-radius: 5px }
+blockquote { margin: 0.5em 0 ; padding: 0.5em ; border: 1px solid #ccc ; border-left:6px solid #ccc ; background: #eee ; border-radius: 5px }
 blockquote blockquote { border: 1px solid #ccd ; background: #dde }
 blockquote blockquote blockquote { border: 1px solid #cdc ; background: #ded }
 code { font-family: "Lucida Console", monospace }
