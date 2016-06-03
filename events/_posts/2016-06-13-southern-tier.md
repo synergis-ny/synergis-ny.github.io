@@ -1,7 +1,7 @@
 ---
 layout: event
 title: Jun 13, 2016 - Southern Tier GIS Users Group
-location: Chemung County Human Resource Center, Room 322
+location: Chemung County Human Resource Center, Room 322, 425 Pennsylvania Ave, Elmira
 address: 425 Pennsylvania Ave, Elmira, NY 14904
 time: 10:00am
 category: events
