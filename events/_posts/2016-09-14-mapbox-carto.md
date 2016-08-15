@@ -7,8 +7,6 @@ time: 12:00pm to 2:00pm
 category: events
 ---
 
-# Joint meeting with Southern Tier GIS Users Group
-
 For this meeting, Synergis is teaming up with the [Southern Tier GIS Users Group](http://www.nysgis.net/regions/southerntier/)!  Join us for informal networking, followed by two presentations on web mapping applications, Mapbox and Carto.  We'll also be looking for volunteers to help plan future meetings...
 
 # Schedule
