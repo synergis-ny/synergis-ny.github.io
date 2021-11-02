@@ -8,9 +8,13 @@ permalink: /events/
 
 {% for event in site.categories.events %}
   <article class='event'>
-    <h2><a href={{ event.url }}>{{ event.title }}</a></h2>
-    <div class='when'><b>When:</b> {{ event.time }}</div>
-    <div class='where'><b>Where:</b> <a href='https://www.google.com/maps/place/{{ event.address }}'>{{ event.location }}</a></div>
+    <h2>{{ event.title }}</h2>
+    <div class='when'><b>When:</b> {{ event.date | date: '%B %d, %Y' }}, {{ event.time }}</div>
+    {% if event.address %}
+      <div class='where'><b>Where:</b> <a href='https://www.google.com/maps/place/{{ event.address }}'>{{ event.location }}</a></div>
+    {% elsif event.location %}
+      <div class='where'><b>Where:</b> {{ event.location }}</div>
+    {% endif %}
     <div class='notes'>{{ event.notes }}</div>
     <div class='entry'>{{ event.content }}</div>
   </article>
